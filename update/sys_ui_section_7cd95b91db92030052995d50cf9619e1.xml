@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="Netzwerk" section_id="7cd95b91db92030052995d50cf9619e1" sys_domain="global" table="x_146266_netzwerk_ip_netzwerk" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_ipnetzwerk_standort</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-11-07 11:39:15</sys_created_on>
+            <sys_id>9dd9db91db92030052995d50cf9619ae</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Netzwerk" display_value="Netzwerk" name="x_146266_netzwerk_ip_netzwerk" sys_domain="global" view="Default view">7cd95b91db92030052995d50cf9619e1</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-11-07 11:39:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_ipnetzwerk_institut</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-11-07 11:39:15</sys_created_on>
+            <sys_id>11d9db91db92030052995d50cf9619af</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Netzwerk" display_value="Netzwerk" name="x_146266_netzwerk_ip_netzwerk" sys_domain="global" view="Default view">7cd95b91db92030052995d50cf9619e1</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-11-07 11:39:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_ipnetzwerk_antragsteller</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-11-07 11:39:15</sys_created_on>
+            <sys_id>91d9db91db92030052995d50cf9619af</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Netzwerk" display_value="Netzwerk" name="x_146266_netzwerk_ip_netzwerk" sys_domain="global" view="Default view">7cd95b91db92030052995d50cf9619e1</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-11-07 11:39:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_ipnetzwerk_verantwortlicheoe</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-11-07 11:39:15</sys_created_on>
+            <sys_id>15d9db91db92030052995d50cf9619af</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Netzwerk" display_value="Netzwerk" name="x_146266_netzwerk_ip_netzwerk" sys_domain="global" view="Default view">7cd95b91db92030052995d50cf9619e1</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-11-07 11:39:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_ipnetzwerk_ticketnummer</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-11-07 11:39:15</sys_created_on>
+            <sys_id>95d9db91db92030052995d50cf9619af</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Netzwerk" display_value="Netzwerk" name="x_146266_netzwerk_ip_netzwerk" sys_domain="global" view="Default view">7cd95b91db92030052995d50cf9619e1</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-11-07 11:39:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_ipnetzwerk_netzkategorie</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-11-07 11:39:15</sys_created_on>
+            <sys_id>19d9db91db92030052995d50cf9619af</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Netzwerk" display_value="Netzwerk" name="x_146266_netzwerk_ip_netzwerk" sys_domain="global" view="Default view">7cd95b91db92030052995d50cf9619e1</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-11-07 11:39:15</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-11-07 11:39:15</sys_created_on>
+            <sys_id>99d9db91db92030052995d50cf9619af</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Netzwerk" display_value="Netzwerk" name="x_146266_netzwerk_ip_netzwerk" sys_domain="global" view="Default view">7cd95b91db92030052995d50cf9619e1</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-11-07 11:39:15</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Netzwerk</caption>
+            <header>false</header>
+            <name>x_146266_netzwerk_ip_netzwerk</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-11-07 11:39:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7cd95b91db92030052995d50cf9619e1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Netzwerk</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Netzwerk" source="x_146266_netzwerk">fc905f99db52030052995d50cf961935</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Netzwerk">fc905f99db52030052995d50cf961935</sys_scope>
+            <sys_update_name>sys_ui_section_7cd95b91db92030052995d50cf9619e1</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-11-07 11:39:12</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

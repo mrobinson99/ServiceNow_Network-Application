@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="IP-Netzwerk" max_length="40" name="x_146266_netzwerk_ip_netzwerk" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Antragsteller" max_length="40" name="u_ipnetzwerk_antragsteller" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Beschreibun" max_length="255" name="u_ipnetzwerk_beschreibung" type="string"/>
+        <element label="Anzahl freier IP-Adressen" max_length="40" name="u_ipnetzwerk_freieipadressen" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" default="Spk-XXXX" label="Institut" max_length="40" name="u_ipnetzwerk_institut" type="string"/>
+        <element label="IP-Adresse" mandatory="true" max_length="40" name="u_ipnetzwerk_ipadresse" type="ip_addr"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="frei" label="IP Netzwerk Status" max_length="40" name="u_ipnetzwerk_ipnetzwerk_status" type="string">
+            <choice>
+                <element label="frei" sequence="0" value="frei"/>
+                <element label="belegt" sequence="1" value="belegt"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="testumgebung" label="Netzkategorie" max_length="40" name="u_ipnetzwerk_netzkategorie" type="string">
+            <choice>
+                <element label="Produktion" sequence="0" value="produktion"/>
+                <element label="Testumgebung" sequence="1" value="testumgebung"/>
+            </choice>
+        </element>
+        <element default="32" label="Netzmaske" mandatory="true" max_length="40" name="u_ipnetzwerk_netzmaske" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Netzsegment Name" max_length="40" name="u_ipnetzwerk_netzsegmentname" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="basisnetz" label="Netzwerktyp" max_length="40" name="u_ipnetzwerk_netzwerktyp" type="string">
+            <choice>
+                <element label="Basisnetz" sequence="0" value="basisnetz"/>
+                <element label="Vaternetz" sequence="1" value="vaternetz"/>
+                <element label="Hauptnetz" sequence="2" value="hauptnetz"/>
+            </choice>
+        </element>
+        <element label="Private Network" max_length="40" name="u_ipnetzwerk_privatenetwork" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" default="ADMIN" label="Sicherheitszone" max_length="40" name="u_ipnetzwerk_sicherheitszone" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="münster" label="Standort" max_length="40" name="u_ipnetzwerk_standort" type="string">
+            <choice>
+                <element label="Fellbach" sequence="0" value="fellbach"/>
+                <element label="Münster" sequence="1" value="münster"/>
+                <element label="Hannover" sequence="2" value="hannover"/>
+            </choice>
+        </element>
+        <element label="Subnetzmaske" max_length="40" name="u_ipnetzwerk_subnetzmaske" type="ip_addr"/>
+        <element label="Ticketnummer" max_length="40" name="u_ipnetzwerk_ticketnummer" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="OE-XXXX" label="Verantwortliche OE" max_length="40" name="u_ipnetzwerk_verantwortlicheoe" type="string">
+            <choice/>
+        </element>
+    </element>
+</database>

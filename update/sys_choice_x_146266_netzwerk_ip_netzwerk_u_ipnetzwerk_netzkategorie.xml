@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_ipnetzwerk_netzkategorie" table="x_146266_netzwerk_ip_netzwerk" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_ipnetzwerk_netzkategorie</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Produktion</label>
+            <language>en</language>
+            <name>x_146266_netzwerk_ip_netzwerk</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-11-07 11:39:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>51d9db91db92030052995d50cf9619ab</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-11-07 11:39:15</sys_updated_on>
+            <value>produktion</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_ipnetzwerk_netzkategorie</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Testumgebung</label>
+            <language>en</language>
+            <name>x_146266_netzwerk_ip_netzwerk</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-11-07 11:39:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>91d9db91db92030052995d50cf9619ac</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-11-07 11:39:15</sys_updated_on>
+            <value>testumgebung</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_ipnetzwerk_netzkategorie</element>
+            <name>x_146266_netzwerk_ip_netzwerk</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-11-07 11:39:15</sys_created_on>
+            <sys_id>5dd9db91db92030052995d50cf9619ab</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_ipnetzwerk_netzkategorie</sys_name>
+            <sys_package display_value="Netzwerk" source="x_146266_netzwerk">fc905f99db52030052995d50cf961935</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Netzwerk">fc905f99db52030052995d50cf961935</sys_scope>
+            <sys_update_name>sys_choice_x_146266_netzwerk_ip_netzwerk_u_ipnetzwerk_netzkategorie</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-11-07 11:39:15</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>
