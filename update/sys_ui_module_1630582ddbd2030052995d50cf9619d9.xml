@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Netzwerk">7551579ddb52030052995d50cf9619e7</application>
+        <filter/>
+        <name>Sicherheitszonen</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_146266_netzwerk.sicherheitszone_user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-11-07 15:36:53</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1630582ddbd2030052995d50cf9619d9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Sicherheitszonen</sys_name>
+        <sys_package display_value="Netzwerk" source="x_146266_netzwerk">fc905f99db52030052995d50cf961935</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Netzwerk">fc905f99db52030052995d50cf961935</sys_scope>
+        <sys_update_name>sys_ui_module_1630582ddbd2030052995d50cf9619d9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-11-07 15:37:35</sys_updated_on>
+        <table>x_146266_netzwerk_sicherheitszone</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+</record_update>

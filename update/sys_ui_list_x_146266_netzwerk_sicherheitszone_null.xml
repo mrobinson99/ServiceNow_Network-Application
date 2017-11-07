@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_146266_netzwerk_sicherheitszone" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_created_on</element>
+            <list_id display_value="x_146266_netzwerk_sicherheitszone" element="NULL" name="x_146266_netzwerk_sicherheitszone" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">12b1d46ddbd2030052995d50cf96195a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-11-07 15:43:26</sys_created_on>
+            <sys_id>96b1d46ddbd2030052995d50cf96195a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-11-07 15:43:26</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_created_by</element>
+            <list_id display_value="x_146266_netzwerk_sicherheitszone" element="NULL" name="x_146266_netzwerk_sicherheitszone" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">12b1d46ddbd2030052995d50cf96195a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-11-07 15:43:26</sys_created_on>
+            <sys_id>1ab1d46ddbd2030052995d50cf96195a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-11-07 15:43:26</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_sicherheitszone_mandat</element>
+            <list_id display_value="x_146266_netzwerk_sicherheitszone" element="NULL" name="x_146266_netzwerk_sicherheitszone" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">12b1d46ddbd2030052995d50cf96195a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-11-07 15:43:26</sys_created_on>
+            <sys_id>9ab1d46ddbd2030052995d50cf96195a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-11-07 15:43:26</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_sicherheitszone_supportgroup</element>
+            <list_id display_value="x_146266_netzwerk_sicherheitszone" element="NULL" name="x_146266_netzwerk_sicherheitszone" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">12b1d46ddbd2030052995d50cf96195a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-11-07 15:43:26</sys_created_on>
+            <sys_id>1eb1d46ddbd2030052995d50cf96195a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-11-07 15:43:26</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_tags</element>
+            <list_id display_value="x_146266_netzwerk_sicherheitszone" element="NULL" name="x_146266_netzwerk_sicherheitszone" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">12b1d46ddbd2030052995d50cf96195a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-11-07 15:43:26</sys_created_on>
+            <sys_id>9eb1d46ddbd2030052995d50cf96195a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-11-07 15:43:26</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_updated_by</element>
+            <list_id display_value="x_146266_netzwerk_sicherheitszone" element="NULL" name="x_146266_netzwerk_sicherheitszone" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">12b1d46ddbd2030052995d50cf96195a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-11-07 15:43:26</sys_created_on>
+            <sys_id>12b1d46ddbd2030052995d50cf96195b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-11-07 15:43:26</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_mod_count</element>
+            <list_id display_value="x_146266_netzwerk_sicherheitszone" element="NULL" name="x_146266_netzwerk_sicherheitszone" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">12b1d46ddbd2030052995d50cf96195a</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-11-07 15:43:26</sys_created_on>
+            <sys_id>92b1d46ddbd2030052995d50cf96195b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-11-07 15:43:26</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_146266_netzwerk_sicherheitszone</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-11-07 15:43:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>12b1d46ddbd2030052995d50cf96195a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_146266_netzwerk_sicherheitszone</sys_name>
+            <sys_package display_value="Netzwerk" source="x_146266_netzwerk">fc905f99db52030052995d50cf961935</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Netzwerk">fc905f99db52030052995d50cf961935</sys_scope>
+            <sys_update_name>sys_ui_list_x_146266_netzwerk_sicherheitszone_null</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-11-07 15:43:26</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>
