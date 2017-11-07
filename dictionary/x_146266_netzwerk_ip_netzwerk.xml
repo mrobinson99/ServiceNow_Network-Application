@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element label="IP-Netzwerk" max_length="40" name="x_146266_netzwerk_ip_netzwerk" type="collection">
+        <element label="New HTML" max_length="65536" name="u_html_2" type="html"/>
+        <element label="Netzadresse" mandatory="true" max_length="40" name="u_ipaddress_netzadresse" type="ip_addr"/>
         <element attributes="edge_encryption_enabled=true" label="Antragsteller" max_length="40" name="u_ipnetzwerk_antragsteller" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Beschreibun" max_length="255" name="u_ipnetzwerk_beschreibung" type="string"/>
         <element label="Anzahl freier IP-Adressen" max_length="40" name="u_ipnetzwerk_freieipadressen" type="integer"/>
@@ -18,7 +20,7 @@
                 <element label="Testumgebung" sequence="1" value="testumgebung"/>
             </choice>
         </element>
-        <element default="32" label="Netzmaske" mandatory="true" max_length="40" name="u_ipnetzwerk_netzmaske" type="integer"/>
+        <element default="32" label="Maske" mandatory="true" max_length="40" name="u_ipnetzwerk_netzmaske" type="integer"/>
         <element attributes="edge_encryption_enabled=true" label="Netzsegment Name" max_length="40" name="u_ipnetzwerk_netzsegmentname" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" default="basisnetz" label="Netzwerktyp" max_length="40" name="u_ipnetzwerk_netzwerktyp" type="string">
             <choice>
