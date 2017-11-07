@@ -1,4 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element label="IP-Adresse" max_length="40" name="x_146266_netzwerk_ip_adresse" type="collection"/>
+    <element label="IP-Adresse" max_length="40" name="x_146266_netzwerk_ip_adresse" type="collection">
+        <element attributes="edge_encryption_enabled=true" default="OE-XXXX" label="Approval Group" max_length="40" name="u_ipaddress_approvalgroup" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="CI Status" max_length="40" name="u_ipaddress_cistatus" type="string">
+            <choice>
+                <element label="aktiv" sequence="0" value="aktiv"/>
+                <element label="inaktiv" sequence="1" value="inaktiv"/>
+            </choice>
+        </element>
+        <element label="Default Gateway" max_length="40" name="u_ipaddress_defaultgateway" type="ip_addr"/>
+        <element label="IP-Adresse" max_length="40" name="u_ipaddress_ipadresse" type="ip_addr"/>
+        <element label="IP Netzwerk" max_length="40" name="u_ipaddress_ipnetwork" type="ip_addr"/>
+        <element label="Loopback" max_length="40" name="u_ipaddress_loopback" type="boolean"/>
+        <element label="PCI relevant" max_length="40" name="u_ipaddress_pcirelevant" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" default="Netz" label="Platform" max_length="40" name="u_ipaddress_platform" type="string"/>
+        <element label="Subnetzmakse" max_length="40" name="u_ipaddress_subnetzmaske" type="ip_addr"/>
+        <element attributes="edge_encryption_enabled=true" default="OE-XXXX" label="Support Group" max_length="40" name="u_ipaddress_supportgroup" type="string"/>
+        <element default="true" label="Valide" max_length="40" name="u_ipaddress_valide" type="boolean"/>
+    </element>
 </database>
