@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="" label="Sicherheitsumgebung" language="en" table="x_146266_netzwerk_sicherheitsumgebung">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>Sicherheitsumgebung</label>
+            <language>en</language>
+            <name>x_146266_netzwerk_sicherheitsumgebung</name>
+            <plural>Sicherheitsumgebungs</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-11-08 06:38:02</sys_created_on>
+            <sys_id>6e7e1f25db5a030052995d50cf96198b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Sicherheitsumgebung</sys_name>
+            <sys_package display_value="Netzwerk" source="x_146266_netzwerk">fc905f99db52030052995d50cf961935</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Netzwerk">fc905f99db52030052995d50cf961935</sys_scope>
+            <sys_update_name>sys_documentation_x_146266_netzwerk_sicherheitsumgebung__en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-11-08 06:38:02</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

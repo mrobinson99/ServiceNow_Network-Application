@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Sicherheitsumgebung" max_length="40" name="x_146266_netzwerk_sicherheitsumgebung" type="collection">
+        <element attributes="edge_encryption_enabled=true" display="true" label="Name" mandatory="true" max_length="40" name="u_sicherheitsumgebung_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Support Group" max_length="40" name="u_sicherheitsumgebung_supportgroup" type="string"/>
+    </element>
+</database>

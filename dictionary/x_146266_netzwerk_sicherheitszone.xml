@@ -2,8 +2,9 @@
 <database>
     <element label="Sicherheitszone" max_length="40" name="x_146266_netzwerk_sicherheitszone" type="collection">
         <element attributes="edge_encryption_enabled=true" default="MANDAT" label="Mandat" max_length="40" name="u_sicherheitszone_mandat" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Name" mandatory="true" max_length="40" name="u_sicherheitszone_name" type="string"/>
-        <element attributes="edge_encryption_enabled=true" default="Ref auf Sicheriheitsumgebung" label="Sicherheitsumgebung" max_length="40" name="u_sicherheitszone_sicherheitsumgebung" type="string"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Name" mandatory="true" max_length="40" name="u_sicherheitszone_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Sicherheitsumgebung" mandatory="true" max_length="40" name="u_sicherheitszone_sicherheitsumgebung" reference="x_146266_netzwerk_sicherheitsumgebung" type="string"/>
+        <element dependent="u_sicherheitszone_name" dependent_on_field="u_sicherheitszone_name" label="Sicherheitsumgebung" mandatory="true" max_length="32" name="u_sicherheitszone_sicherheitsumgebung_ref" reference="x_146266_netzwerk_sicherheitsumgebung" type="reference" use_dependent_field="true"/>
         <element attributes="edge_encryption_enabled=true" default="Ref auf Support Group" label="Support Group" max_length="40" name="u_sicherheitszone_supportgroup" type="string"/>
     </element>
 </database>

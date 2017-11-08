@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="u_sicherheitszone_name" table="x_146266_netzwerk_sicherheitszone">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="u_string_2" table="x_146266_netzwerk_ip_netzwerk">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
         <attributes>edge_encryption_enabled=true</attributes>
         <audit>false</audit>
         <calculation/>
-        <choice/>
+        <choice>0</choice>
         <choice_field/>
         <choice_table/>
-        <column_label>Name</column_label>
+        <column_label>New String</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
         <defaultsort/>
         <delete_roles/>
-        <dependent/>
-        <dependent_on_field/>
-        <display>true</display>
+        <dependent>u_ipnetzwerk_sicherheitszone_ref</dependent>
+        <dependent_on_field>u_ipnetzwerk_sicherheitszone_ref</dependent_on_field>
+        <display>false</display>
         <dynamic_creation>false</dynamic_creation>
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>u_sicherheitszone_name</element>
+        <element>u_string_2</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <internal_type display_value="String">string</internal_type>
-        <mandatory>true</mandatory>
+        <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <name>x_146266_netzwerk_sicherheitszone</name>
+        <name>x_146266_netzwerk_ip_netzwerk</name>
         <next_element/>
         <primary>false</primary>
-        <read_only>false</read_only>
+        <read_only>true</read_only>
         <read_roles/>
         <reference/>
         <reference_cascade_rule/>
@@ -46,20 +46,20 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2017-11-07 15:41:59</sys_created_on>
-        <sys_id>4d61d06ddbd2030052995d50cf9619ef</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>Name</sys_name>
+        <sys_created_on>2017-11-08 07:24:04</sys_created_on>
+        <sys_id>f809efe9db5a030052995d50cf961930</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>New String</sys_name>
         <sys_package display_value="Netzwerk" source="x_146266_netzwerk">fc905f99db52030052995d50cf961935</sys_package>
         <sys_policy/>
         <sys_scope display_value="Netzwerk">fc905f99db52030052995d50cf961935</sys_scope>
-        <sys_update_name>sys_dictionary_x_146266_netzwerk_sicherheitszone_u_sicherheitszone_name</sys_update_name>
+        <sys_update_name>sys_dictionary_x_146266_netzwerk_ip_netzwerk_u_string_2</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-11-08 07:26:10</sys_updated_on>
+        <sys_updated_on>2017-11-08 07:24:04</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
-        <use_dependent_field>false</use_dependent_field>
+        <use_dependent_field>true</use_dependent_field>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
